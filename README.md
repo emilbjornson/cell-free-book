@@ -32,9 +32,15 @@ related to these and other resource allocation problems are
 reviewed. All the numerical examples can be reproduced
 using the accompanying Matlab code.
 
-## Content of Code Package
+## Content of Code Packagehttp://cvxr.com/cvx/
 
-## Software and Hardware Requirements
+This code package contains 74 Matlab scripts and 29 Matlab functions.
+
+Each script is used to reproduce a particular simulation-generated figure in the book. The scripts are named using the convention sectionX_figureY, which is interpreted as the script that reproduces Figure X.Y. A few scripts are instead named as sectionX_figureY_Z and will then generate both Figure X.Y and Figure X.Z.
+
+The functions are used by the scripts to carry out certain tasks, such as initiating a simulation setup, generating channel correlation matrices, generating channel realizations, computing channel estimates, computing SEs, implementing power control algorithms, etc.
+
+See each script and function for further documentation. Note that some of the functions use [CVX](http://cvxr.com/cvx/) with SDPT3 solver, which need to be installed separately.
 
 ## Acknowledgements
 
