@@ -32,7 +32,7 @@ related to these and other resource allocation problems are
 reviewed. All the numerical examples can be reproduced
 using the accompanying Matlab code.
 
-## Content of Code Packagehttp://cvxr.com/cvx/
+## Content of Code Package
 
 This code package contains 74 Matlab scripts and 29 Matlab functions.
 
