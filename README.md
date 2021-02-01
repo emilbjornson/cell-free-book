@@ -9,11 +9,54 @@ The package contains a simulation environment, based on Matlab, that can be used
 
 ## Abstract of the Book
 
+Imagine a coverage area where each mobile device is communicating with a preferred set of wireless access points
+(among many) that are selected based on its needs and cooperate to jointly serve it, instead of creating autonomous
+cells. This effectively leads to a user-centric post-cellular network architecture, which can resolve many of the interference issues and service-quality variations that appear in cellular networks. This concept is called User-centric Cellfree Massive MIMO (multiple-input multiple-output) and
+has its roots in the intersection between three technology
+components: Massive MIMO, coordinated multipoint processing, and ultra-dense networks. The main challenge is to
+achieve the benefits of cell-free operation in a practically
+feasible way, with computational complexity and fronthaul
+requirements that are scalable to enable massively large
+networks with many mobile devices. This monograph covers
+the foundations of User-centric Cell-free Massive MIMO,
+starting from the motivation and mathematical definition. It
+continues by describing the state-of-the-art signal processing
+algorithms for channel estimation, uplink data reception, and downlink data transmission with either centralized or
+distributed implementation. The achievable spectral efficiency is mathematically derived and evaluated numerically
+using a running example that exposes the impact of various
+system parameters and algorithmic choices. The fundamental tradeoffs between communication performance, computational complexity, and fronthaul signaling requirements
+are thoroughly analyzed. Finally, the basic algorithms for
+pilot assignment, dynamic cooperation cluster formation,
+and power optimization are provided, while open problems
+related to these and other resource allocation problems are
+reviewed. All the numerical examples can be reproduced
+using the accompanying Matlab code.
+
 ## Content of Code Package
 
 ## Software and Hardware Requirements
 
 ## Acknowledgements
+
+We would first like to thank our students and collaborators in the areas
+related to this monograph. Without the results, encouragements, and
+insights obtained through our joint research during the last decade, it
+wouldn’t have been possible to write this monograph. We are grateful for
+the constructive feedback from the reviewers, which helped us to focus
+our final editing efforts at the right places. In particular, we would like
+to thank Angel Lozano, Jiayi Zhang, Mahmoud Zaher, and Yasaman
+Khorsandmanesh for giving detailed comments.
+Özlem Tuğfe Demir and Emil Björnson have been supported by the
+Wallenberg AI, Autonomous Systems and Software Program (WASP)
+funded by the Knut and Alice Wallenberg Foundation. Emil Björnson
+has also been supported by the Excellence Center at Linköping – Lund in
+Information Technology (ELLIIT), the Center for Industrial Information
+Technology (CENIIT), the Swedish Research Council, and the Swedish
+Foundation for Strategic Research. Luca Sanguinetti has been partially
+supported by the University of Pisa under the PRA Research Project
+CONCEPT, and by the Italian Ministry of Education and Research
+(MIUR) in the framework of the CrossLab project (Departments of
+Excellence).
 
 ## License and Referencing
 
