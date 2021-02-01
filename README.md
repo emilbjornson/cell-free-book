@@ -34,7 +34,7 @@ using the accompanying Matlab code.
 
 ## Content of Code Package
 
-This code package contains 74 Matlab scripts and 29 Matlab functions.
+This code package contains 30 Matlab scripts and 17 Matlab functions.
 
 Each script is used to reproduce a particular simulation-generated figure in the book. The scripts are named using the convention sectionX_figureY, which is interpreted as the script that reproduces Figure X.Y. A few scripts are instead named as sectionX_figureY_Z and will then generate both Figure X.Y and Figure X.Z.
 
