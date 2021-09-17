@@ -5,7 +5,7 @@
 %Foundations and Trends in Signal Processing: Vol. 14: No. 3-4,
 %pp 162-472. DOI: 10.1561/2000000109
 %
-%This is version 1.0 (Last edited: 2021-01-31)
+%This is version 1.1 (Last edited: 2021-09-17)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
@@ -40,8 +40,6 @@ K = 40;
 %Length of coherence block
 tau_c = 200;
 
-%Length of pilot sequences
-tau_p = 10;
 
 %Angular standard deviation in the local scattering model (in radians)
 ASD_varphi = deg2rad(15);  %azimuth angle
@@ -53,6 +51,8 @@ nbrBSs = 4;
 %Number of antennas at the 4 BSs
 M = 100;
 
+%Length of pilot sequences
+tau_p = K/nbrBSs;
 
 %% Propagation parameters
 
