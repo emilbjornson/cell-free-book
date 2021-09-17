@@ -40,8 +40,6 @@ K = 40;
 %Length of coherence block
 tau_c = 200;
 
-%Length of pilot sequences
-tau_p = 10;
 
 %Angular standard deviation in the local scattering model (in radians)
 ASD_varphi = deg2rad(15);  %azimuth angle
@@ -53,6 +51,8 @@ nbrBSs = 4;
 %Number of antennas at the 4 BSs
 M = 100;
 
+%Length of pilot sequences
+tau_p = K/nbrBSs;
 
 %% Propagation parameters
 
