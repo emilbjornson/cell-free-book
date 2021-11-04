@@ -5,7 +5,7 @@
 %Foundations and Trends in Signal Processing: Vol. 14: No. 3-4,
 %pp 162-472. DOI: 10.1561/2000000109
 %
-%This is version 1.0 (Last edited: 2021-01-31)
+%This is version 1.1 (Last edited: 2021-11-04)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
@@ -159,6 +159,9 @@ for n = 1:nbrOfSetups
     end
     %Compute the numerator term without p_k in (5.9) for all UEs
     bk_P_MMSE = b_P_MMSE.^2;    
+
+    %Compute the interference term without p_i's in (5.9) for all UEs
+    ck_P_MMSE = real(C_P_MMSE);
 
     %Compute the effective noise variance in (5.9) for all UEs
     sigma2_P_MMSE = sum(scaling_P_MMSE,1).';
