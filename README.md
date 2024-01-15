@@ -36,7 +36,7 @@ using the accompanying Matlab code.
 
 This code package contains 30 Matlab scripts and 17 Matlab functions.
 
-Each script is used to reproduce a particular simulation-generated figure in the book. The scripts are named using the convention chapterX_figureY, which is interpreted as the script that reproduces Figure X.Y. A few scripts are instead named as chapterX_exerciseX_Y and will then generate the figure corresponding to Exercise X.Y.
+Each script is used to reproduce a particular simulation-generated figure in the book. The scripts are named using the convention chapterX_figureY, which is interpreted as the script that reproduces Figure X.Y. A few scripts are instead named as sectionX_figureY_Z and will then generate both Figure X.Y and Figure X.Z.
 
 The functions are used by the scripts to carry out certain tasks, such as initiating a simulation setup, generating channel correlation matrices, generating channel realizations, computing channel estimates, computing SEs, implementing power control algorithms, etc.
 
